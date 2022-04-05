@@ -2,7 +2,11 @@
   "name": "thienminhcms",
   "author": "taihv",
   "email": "taihv@thienminhexpress.vn",
-  "version": "0.0.1",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.14.2"
+  },
   "private": true,
   "scripts": {
     "dev": "set NODE_OPTIONS=--max_old_space_size=4096 && next dev",
